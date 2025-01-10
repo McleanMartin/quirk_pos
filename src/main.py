@@ -23,7 +23,7 @@ import gi
 gi.require_version('Gtk', '4.0')
 
 from gi.repository import Gtk, Gio
-from .window import QuirkWindow
+from .screens.splash import QuirkWindow
 
 
 class QuirkApplication(Gtk.Application):

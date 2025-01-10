@@ -28,7 +28,7 @@ configure_file(
 quirk_sources = [
   '__init__.py',
   'main.py',
-  'window.py',
+  'screens/splash.py',
 ]
 
 install_data(quirk_sources, install_dir: moduledir)

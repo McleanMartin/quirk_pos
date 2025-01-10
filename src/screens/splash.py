@@ -19,7 +19,7 @@
 
 from gi.repository import Gtk
 
-@Gtk.Template(resource_path='/org/quirk/app/window.ui')
+@Gtk.Template(resource_path='/org/quirk/app/splash.ui')
 class QuirkWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'QuirkWindow'
 
